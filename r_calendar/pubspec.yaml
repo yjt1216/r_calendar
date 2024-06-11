@@ -4,12 +4,14 @@ version: 0.1.12
 homepage: https://github.com/rhymelph/r_calendar
 
 environment:
-  sdk: '>=3.2.3 <4.0.0'
+#  sdk: '>=3.2.3 <4.0.0'
+  sdk: ">=3.0.2 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  intl: ^0.18.1
+  intl: ^0.18.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
